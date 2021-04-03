@@ -1,1 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+:root {
+    font-size: 16px;
+    --primary-color: #FCECF6;
+    --accent-color: #F15060;
+    --secondary-color:  #EBF8FE;
+    --asset-shadow: 3px 3px 15px rgba(241, 80, 96, 0.65);
+    --default-shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.asset-font {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.normal-text {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.menu-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000000 !important;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.h1 {
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color) !important;
+}
+
+.mail-icon {
+    padding: 6px;
+    padding-top: 4px;
+    display: inline;
+    border: var(--accent-color) solid 2px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
