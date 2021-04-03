@@ -1,0 +1,47 @@
+.hero {
+    padding-top: 4rem;
+    background: url('../../svg/hero-background.svg'), var(--primary-color);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+}
+
+.hero--subtitle {
+    font-weight: 500;
+    font-size: 2.25rem;
+}
+
+.hero--image {
+    filter: drop-shadow(0px -3px 15px rgba(241, 80, 96, 0.35));
+    -webkit-filter: drop-shadow(0px -3px 15px rgba(241, 80, 96, 0.35));
+}
+
+.hero--image img {
+    width: 90%;
+    max-width: 385px;
+}
+
+@media screen and (max-width: 991px) {
+    .hero {
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .hero--content {
+        text-align: center;
+    }
+
+    .hero--content p {
+        text-align: left;
+    }
+    
+    .hero--image {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .hero--header{
+        text-align: center;
+    }
+}
