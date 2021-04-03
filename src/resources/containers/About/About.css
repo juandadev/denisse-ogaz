@@ -1,0 +1,26 @@
+.about {
+    margin-top: 5rem;
+}
+
+.about__info {
+    position: relative;
+}
+
+.about__info--img {
+    float: left;
+    margin-right: 1rem;
+    width: 50%;
+    max-width: 560px;
+}
+
+.about__info--img img {
+    width: 100%;
+}
+
+@media screen and (max-width: 769px) {
+    .about__info--img {
+        margin-bottom: 1.5rem;
+        width: 100%;
+        min-width: 300px;
+    }   
+}
