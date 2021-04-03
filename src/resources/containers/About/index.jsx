@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import Button from '../../components';
 import aboutIllustration from '../../svg/about-illustration.svg';
+import brainIllustration from '../../svg/brain.svg';
 import './About.css';
 
 const About = () => (
   <div className="about" id="about">
     <Container>
-      <Row>
+      <Row className="about-1">
         <Col className="about__info">
           <div className="about__info--img">
             <img
@@ -54,6 +56,39 @@ const About = () => (
             compromiso por contribuir en múltiples estrategias para cambiar la
             calidad educativa en cada nivel educativo.
           </p>
+        </Col>
+      </Row>
+
+      <Row className="about-2">
+        <Col
+          className="about-2__info d-flex flex-column justify-content-center align-items-center"
+          md={6}
+          xs={12}
+        >
+          <p className="normal-text">
+            Hasta el día de hoy, intervengo como Coordinadora Académica dentro
+            del Instituto de Neurociencias Aplicadas al Desarrollo S.C donde por
+            más de 5 años se han realizado actividades de investigación,
+            talleres, conferencias y cursos de divulgación neurocientífica
+            relacionadas con le educación y la autorrealización humana, así como
+            co-autora de cursos INAD.
+          </p>
+
+          <Button className="align-self-md-start" href="#contact">
+            Contáctame
+          </Button>
+        </Col>
+
+        <Col
+          className="about-2__img d-flex justify-content-center"
+          md={6}
+          xs={12}
+        >
+          <img
+            src={brainIllustration}
+            alt="Ilustración de un cerebro con signo de pregunta"
+            title="Ilustración de un cerebro con signo de pregunta"
+          />
         </Col>
       </Row>
     </Container>
