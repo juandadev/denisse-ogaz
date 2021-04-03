@@ -8,6 +8,7 @@
 
 .about__info--img {
     float: left;
+    margin-bottom: 1rem;
     margin-right: 1rem;
     width: 50%;
     max-width: 560px;

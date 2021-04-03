@@ -5,7 +5,7 @@ import carlaHero from '../../img/carla-hero.png';
 import './Hero.css';
 
 const Hero = () => (
-  <div className="hero">
+  <div className="hero" id="hero">
     <Container>
       <Row>
         <Col lg={6} xs={12}>

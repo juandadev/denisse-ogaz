@@ -4,7 +4,7 @@ import aboutIllustration from '../../svg/about-illustration.svg';
 import './About.css';
 
 const About = () => (
-  <div className="about">
+  <div className="about" id="about">
     <Container>
       <Row>
         <Col className="about__info">
