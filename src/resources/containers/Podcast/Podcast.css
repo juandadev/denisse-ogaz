@@ -1,0 +1,60 @@
+.podcast {
+    margin-top: 5rem;
+}
+
+.podcast--desc {
+    margin-bottom: 2rem;
+}
+
+.podcast-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+}
+
+.podcast-item:hover {
+    opacity: 0.7;
+}
+
+.podcast-item p {
+    margin-bottom: 0;
+    margin-left: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.podcast-1 {
+    color: #C373A9;
+    background-color: #FAE4F3;
+}
+
+.podcast-1 svg path {
+    stroke: #C373A9;
+}
+
+.podcast-2 {
+    color: #DCB582;
+    background-color: #FEF5EA;
+}
+
+.podcast-2 svg path {
+    stroke: #DCB582;
+}
+
+.podcast-3 {
+    color: #6F8BAF;
+    background-color: #E9F7FD;
+}
+
+.podcast-3 svg path {
+    stroke: #6F8BAF;
+}

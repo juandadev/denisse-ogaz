@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Hero, About, Courses } from './resources/containers';
+import { Header, Hero, About, Courses, Podcast } from './resources/containers';
 
 import './App.css';
 
@@ -12,6 +12,8 @@ const App = () => (
     <About />
 
     <Courses />
+
+    <Podcast />
   </div>
 );
 
