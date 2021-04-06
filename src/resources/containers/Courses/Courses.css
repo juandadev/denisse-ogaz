@@ -20,6 +20,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem;
+    padding-top: 0;
 }
 
 .courses__container__item img {
