@@ -8,10 +8,6 @@
     -o-border-radius: 6px;
 }
 
-.btn:focus {
-    box-shadow: var(--btn-shadow);
-}
-
 .btn:active,
 .btn:focus {
     color: #ffffff !important;
@@ -31,4 +27,24 @@
 .btn-primary:hover {
     color: var(--accent-color) !important;
     background-color: #ffffff !important;
+}
+
+.btn-secondary {
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--accent-color);
+    background-color: #ffffff;
+    border: 2px solid #ffffff !important;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.35);
+}
+
+.btn-secondary:hover {
+    color: #ffffff !important;
+    background-color: var(--accent-color);
+}
+
+.btn-secondary:active,
+.btn-secondary:focus {
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.35) !important;
 }

@@ -1,5 +1,13 @@
 import React from 'react';
-import { Header, Hero, About, Courses, Podcast } from './resources/containers';
+import {
+  Header,
+  Hero,
+  About,
+  Courses,
+  Podcast,
+  Contact,
+  Footer,
+} from './resources/containers';
 
 import './App.css';
 
@@ -14,6 +22,10 @@ const App = () => (
     <Courses />
 
     <Podcast />
+
+    <Contact />
+
+    <Footer />
   </div>
 );
 

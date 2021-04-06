@@ -1,0 +1,42 @@
+.contact {
+    position: relative;
+    margin-top: 5rem;
+    padding: 4rem 0;
+    background-color: var(--accent-color);
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 2px;
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+
+.contact p,
+.contact label {
+    color: #ffffff;
+}
+
+.contact--message {
+    height: 100%;
+}
+
+.contact textarea {
+    height: 70%;
+}
+
+.contact--submit {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 991px) {
+    .contact--submit {
+        text-align: center !important;
+    }
+}

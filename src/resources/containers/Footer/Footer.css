@@ -1,0 +1,15 @@
+.footer {
+    padding: 4rem 0;
+    background-color: var(--accent-color);
+}
+
+.footer a,
+.footer p {
+    color: #ffffff;
+}
+
+.footer__name--1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
